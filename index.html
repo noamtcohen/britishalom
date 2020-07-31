@@ -5,9 +5,61 @@
                 background-color:black;
                 color:white;
             }
+            #title img{
+                width:100px;
+            }
+            #title{
+                border-bottom: 1px dashed white;
+                padding: 5px;
+                margin-bottom: 5px;
+            }
+            #langs{
+                display: inline-block;
+                width: 100%;
+                text-align: right;
+                cursor: pointer;
+            }
+            iframe{
+                border: 1px dashed white;
+            }
+            #title button{
+                background-color: black;
+                color: white;
+                width:200px;
+                height: 60p;
+            }
+            #youtube{
+                border-bottom: 1px dashed white;
+                padding-bottom: 5px;
+                margin-bottom: 5px;
+            }
+            #galary{
+                text-align: center;
+            }
+            #galary img{
+                width:300px;
+            }
         </style>
     </head>
     <body>
-        <img src="img/logo.jpeg"/><img src="img/haesh2.jpg"/>
+        <div id="title">
+            <img src="img/logo.jpeg"/>&nbsp;&nbsp;&nbsp;<img src="img/esh2.png"/>
+            &nbsp;&nbsp;&nbsp;<button onclick="document.location='https://www.matara.pro/nedarimplus/online/?mosad=7003142'">Donations</button>
+            <div id="langs">
+                <img src="img/france.png"/>
+                <img src="img/israel.png"/>
+            </div>
+        </div>  
+        <div id="youtube">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/SteETlCkjlk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div> 
+        <div id="galary">
+            <img src="img/shul2.jpeg"/>
+            <img src="img/shul3.jpeg"/>
+            <img src="img/shul4.jpeg"/>
+            <img src="img/shul5.jpeg"/>
+            <img src="img/shul6.jpeg"/>
+            <img src="img/shul7.jpeg"/>
+        </div>
     </body>
 </html>
