@@ -5,7 +5,7 @@ $(function () {
     $("#Donations").click(function (e) {
         e.stopPropagation();
     })
-    $("body").click(function () {
+    $(window).click(function () {
         $("#Donations").hide();
     });
 });
