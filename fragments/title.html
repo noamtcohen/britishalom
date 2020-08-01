@@ -1,7 +1,7 @@
 <div style="float: left;">
     <img src="img/logo.jpeg" style="cursor:pointer" onclick="document.location='index.html'"/>&nbsp;&nbsp;&nbsp;<img src="img/esh2.png"/>
     &nbsp;&nbsp;&nbsp;
-    <button onclick="$('#Donations').show()">Donations</button>
+    <button onclick="$('#Donations').show(); event.stopPropagation();">Donations</button>
     <button onclick="document.location='shop.html'">Shop</button>
 </div>
 <div id="langs">
