@@ -1,0 +1,47 @@
+body{
+    background-color:black;
+    color:white;
+}
+#title img{
+    width:100px;
+}
+#title{
+    border-bottom: 1px dashed white;
+    padding: 5px;
+    margin-bottom: 5px;
+    height: 140px;
+}
+#langs{
+    float: right;
+    cursor: pointer;
+}
+iframe{
+    border: 1px dashed white;
+}
+#title button{
+    background-color: black;
+    color: white;
+    font-size: 1.5em;
+}
+#youtube{
+    border-bottom: 1px dashed white;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+#galary{
+    text-align: center;
+}
+#galary img{
+    width:300px;
+}
+#Donations{
+    z-index: 1000;
+    position: absolute;
+    top:30px;
+    left: 50%;
+    margin-left: -400px;
+}
+#Donations iframe{
+    width: 800px;
+    height: 600px;
+}
