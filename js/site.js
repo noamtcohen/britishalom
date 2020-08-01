@@ -1,5 +1,3 @@
 $(function () {
-    $.get("fragments/title.html", function (data) {
-        $("#title").html(data);
-    });
+    $.get("fragments/title.html", $("#title").html);
 });
