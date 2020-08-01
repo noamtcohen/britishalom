@@ -41,6 +41,7 @@ iframe{
     left: 50%;
     margin-left: -400px;
     background-color:red;
+    text-align:right;
 }
 #Donations iframe{
     width: 800px;
