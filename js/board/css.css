@@ -7,11 +7,11 @@
     z-index: 0;
 }
 .myDiv {
-    /* background: aqua;
-    width: 80px;
-    height: 80px; */
+    background: black;
+    color: white;
     transition: 1s ease-in-out;
     cursor: pointer;
+    float: left;
 }
 .close-icon {
     float: right;
