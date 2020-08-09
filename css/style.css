@@ -53,6 +53,7 @@ iframe{
     border-color: white;
     border-style: groove;
     width: 200px;
+    display: inline-block;
 }
 .shop-item img{
     height:100px;

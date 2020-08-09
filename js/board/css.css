@@ -1,0 +1,26 @@
+.myDiv.fullscreen {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    transition: 1s ease-in-out;
+    cursor: auto;
+    z-index: 0;
+}
+.myDiv {
+    background: aqua;
+    width: 80px;
+    height: 80px;
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+.close-icon {
+    float: right;
+    margin: 30px;
+    cursor: pointer;
+    display: none;
+    z-index: 100;
+}
+.popcontainer {
+    margin: 20px;
+    padding: 20px;
+}
