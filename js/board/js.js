@@ -8,6 +8,7 @@ function init(){
 
     $('.myDiv').click(function(e) {
         e = $(e.toElement);
+        
         if (e.hasClass('fullscreen')) {
             e.off('click', handleClick);
         } else {
