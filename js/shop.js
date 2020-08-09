@@ -9,7 +9,7 @@ $(function(){
             $item.find("#desc").load("Products/" + id  + "/Desc.txt");
             $item.find("#about").load("Products/" + id  + "/About.txt");
             $item.find("#cover").attr("src","Products/" + id + "/Cover.png");
-            $item.find("#back").attr("src","Products/" + id + "/back.png");
+            $item.find("#back").attr("src","Products/" + id + "/Back.png");
 
             $item.on('click', handleClick);
             $("#products").append($item);
