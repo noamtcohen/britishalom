@@ -47,3 +47,10 @@ iframe{
     width: 800px;
     height: 600px;
 }
+
+.shop-item{
+    border-width: 1px;
+    border-color: white;
+    border-style: groove;
+    width: 200px;
+}
