@@ -7,9 +7,9 @@
     z-index: 0;
 }
 .myDiv {
-    background: aqua;
+    /* background: aqua;
     width: 80px;
-    height: 80px;
+    height: 80px; */
     transition: 1s ease-in-out;
     cursor: pointer;
 }
