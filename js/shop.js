@@ -1,4 +1,4 @@
-var ids=[1]
+var ids=[1,2]
 
 $(function(){
     $.get("fragments/shop-item.html",function(shop_item){
