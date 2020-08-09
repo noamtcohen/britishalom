@@ -54,3 +54,6 @@ iframe{
     border-style: groove;
     width: 200px;
 }
+.shop-item img{
+    height:100px;
+}
