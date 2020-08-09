@@ -12,6 +12,7 @@
     transition: 1s ease-in-out;
     cursor: pointer;
     float: left;
+    margin-left:5px;
 }
 .close-icon {
     float: right;
